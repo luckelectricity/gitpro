@@ -20,6 +20,7 @@
 	<p>如果输入错误，还没有git add 加文件名 ，就用git checkout -- 加文件名撤销提交，{我觉得在文件删了直接再提交就好了,如果直接删除了，记录里还有呢，并且多记录了删除的步骤}。</p>
 	<p>如果git add了，就用git reset HEAD 文件名退回到未add前，然后用git checkout -- 文件名删除就好了. </p>
 	<p>如果你提交了版本库，参考版本回退的那次吧，如果你提交了远程仓库，节哀顺变吧。</p>
+	<p>如果没有README.md文件，则需要把他下到本地文件才行，用git pull --rebase origin master来吧这个文件下载到本地</p>
 	<p>第一次提交远程仓库，用git push -u origin master >>>>>> 意思是提交的你仓库的master分支加上-u参数，不但会把本地的master分支提交到远程的master分支，还会把两个分支关联起来</p>
 </body>
 </html>
